@@ -26,7 +26,7 @@ resource "azurerm_app_service" "AS-Terraform" {
   }
 
   app_settings = {
-    "dropkey" = "rg7gl4i7akwxq6hir4mwrl64tu6nvtn5qnmgen27gfk2rtc5oipq"
+    "SOME_KEY" = "droptoken"
   }
 
   connection_string {
